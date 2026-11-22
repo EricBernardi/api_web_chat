@@ -1,0 +1,34 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (contêm senhas)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Banco local (caso use SQLite em testes)
+*.db
+*.sqlite
+
+# Arquivos enviados pelos usuários (avatars etc.)
+uploads/
+
+# Cobertura de testes e builds
+coverage/
+dist/
+build/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
